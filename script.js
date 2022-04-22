@@ -43,5 +43,5 @@ const updateRate = () => {
     let rateval = document.getElementById("rate").value;
 
     // Setting the inner content of the span to display the actual rate value.
-    document.getElementById("rate_val").innerText = rateval;
+    document.getElementById("rate_val").innerText = rateval + "%";
 }
